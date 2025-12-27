@@ -104,7 +104,7 @@ export const PDFTemplate: React.FC<PDFTemplateProps> = ({ quote, business }) => 
         <div className="bg-slate-900 text-white p-6 rounded-2xl shadow-xl h-fit">
           <div className="space-y-3">
             <div className="flex justify-between items-end">
-              <span className="font-bold text-orange-400 uppercase text-xs">Valor Total do Orçamento</span>
+              <span className="font-bold text-orange-400 uppercase text-xs">Valor Tota:</span>
               <span className="text-2xl font-black">
                 R$ {quote.total ? quote.total.toLocaleString('pt-BR', { minimumFractionDigits: 2 }) : '0,00'}
               </span>
