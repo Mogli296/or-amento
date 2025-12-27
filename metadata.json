@@ -1,0 +1,7 @@
+{
+  "name": "Serralheria Pro - Orçamentos e Medidas",
+  "description": "Aplicativo profissional para gestão de orçamentos e medições para serralheiros e profissionais de construção civil.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
